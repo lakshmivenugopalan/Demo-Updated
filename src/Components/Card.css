@@ -1,0 +1,72 @@
+
+    .job-card-main{
+     
+   
+     
+    }
+    .job-first-main{
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border-bottom: 0.3px solid rgb(238, 238, 238);
+      background-color: white;
+    }
+    .jobCard-first{
+      justify-self: center;
+      align-self: center;
+    }
+    .jobCard-first-rating{
+      background-color: #fff3e5;
+      color: #fe8b25;
+      padding: 5px;
+      font-weight: 500;
+      border-radius: 5px;
+      font-size: clamp(0.5rem,2vw,0.8rem);
+    }
+    .jobCard-third{
+      gap: 2rem;
+      display: grid;
+      color: #c1d3e2;
+      justify-self: end;
+      font-weight: 500;
+    }
+    .jobCard-third-heart{
+      justify-self: end;
+    }
+    .jobCard-third-heart i{
+     font-size: 25px;
+    }
+    
+    .tags{
+      padding: 10px;
+      display: flex;
+      gap: 1rem;
+    }
+    .tags p{
+      padding: 5px;
+      background-color: #d8e6f1;
+      border-radius: 10px;
+      font-weight: 500;
+      color: #677580;
+      font-size: clamp(0.6rem,2vw,0.8rem);
+    }
+    .sub-title{
+      color: rgb(110, 108, 108);
+      font-size: clamp(0.2rem,2vw,0.8rem);
+    }
+    .job-title{
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+      font-size: clamp(1rem,2vw,1.5rem);
+    }
+    .job-place{
+      color: rgb(110, 108, 108);
+      font-size: clamp(0.2rem,2vw,0.8rem);
+    }
+
+.hp,.g{
+  height: 48px;
+  width: 48px;
+}
